@@ -13,7 +13,7 @@ const Contador = () => {
   }
 
   const decrementar = () =>{
-    setNumero(numero > 0 ? numero - 1 : 0);
+    setNumero(numero > 0  ? numero -1 : 0);
   }
  
   useEffect(() => {
@@ -21,7 +21,7 @@ const Contador = () => {
   })
 
   return (
-    <Fragment>
+    <Fragment>  
       <div className="flex w-screen h-screen justify-center items-center">
         <div className="w-3/5 bg-green-300 h-2/3 flex flex-col justify-center items-center rounded-2xl
                         border-blue-600 border">

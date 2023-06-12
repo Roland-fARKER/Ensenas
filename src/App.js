@@ -1,11 +1,12 @@
-import Contador from './components/contador';
+import { Fragment } from "react";
+import Header from "./components/header";
 
 function App() {
   return (
-    <div>
-       <Contador/>     
-    </div>
-
+      <Fragment>
+          <Header/>
+          <h1>hola</h1>
+      </Fragment>
   );
 }
 
