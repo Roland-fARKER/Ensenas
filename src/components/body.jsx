@@ -65,7 +65,7 @@ const Body = () =>{
                 <h1 className=" text-white text-center text-2xl">Enseñas</h1>
 
                 <h2 className=" text-white text-center text-lg" >"Derribando barreras, construyendo igualdad"</h2>
-                <h2 className=" text-white text-center text-2xl my-5" >Entérate de mas noticias Pronto...</h2>
+                <h2 className=" text-white text-center text-2xl my-5" >Entérate de más noticias Pronto...</h2>
             </section>
         </>
        

@@ -3,10 +3,9 @@ import { Bars3BottomRightIcon, XMarkIcon, HandRaisedIcon } from '@heroicons/reac
 
 const Header = () => {
     const Links =[
-        {name:"HOME",link:"/"},
-        {name:"SERVICE",link:"/"},
-        {name:"ABOUT",link:"/"},
-        {name:"CONTACT",link:"/"},
+        {name:"INICIO",link:"/"},
+        {name:"SOBRE NOSOTROS",link:"/"},
+        {name:"CONTACTANOS",link:"/"},
       ];
       const [open, setOpen] =useState(false);
 
@@ -29,7 +28,7 @@ const Header = () => {
                 {
                     Links.map((link) => (
                     <li className='md:ml-8 md:my-0 my-7 font-semibold'>
-                        <a href={link.link} className=' text-gray-800 hover:bg-gray-600 duration-500 p-3 rounded-3xl'>{link.name}</a>
+                        <a href={link.link} className=' text-gray-800 hover:bg-gray-200 duration-500 p-3 rounded-3xl'>{link.name}</a>
                     </li>))
                 }
             
