@@ -73,11 +73,11 @@ const Form = () => {
       
        <div >
             {
-               /* com.map((c) =>(
+                com.map((c) =>(
                     <div className=" bg-slate-200 my-4 w-auto mx-2 px-2 rounded-2xl">
                         <h1 className=" text-blue-600">{c.data().Nombre}</h1>
                         <p>{c.data().Comentario}</p>
-                    </div>))*/
+                    </div>))
             }
         </div>
         <Vector3/>

@@ -48,7 +48,7 @@ const Body = () =>{
                                 xl:px-96">
     
                 <div className=" w-60 max-sm:w-80 xl:w-96">
-                    <h1 className=" text-gray-800 text-3xl my-4 text-center">Ellos tambien pueden expresarse libremente</h1>
+                    <h1 className=" text-gray-800 text-3xl my-4 text-center">Ellos también pueden expresarse libremente</h1>
                     <hr className=" bg-gray-800"></hr>
                     <p className=" text-gray-800 text-lg my-3 text-justify">
                         Enseñas tambien permite que nuestros compañeros
