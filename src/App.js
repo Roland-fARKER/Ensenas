@@ -1,11 +1,16 @@
 import { Fragment } from "react";
-import Header from "./components/header";
+import Body from "./components/body";
+import Fotter from "./components/Footer";
+import Header from "./components/header"
+import Nosotros from "./components/Nosotros"
 
 function App() {
   return (
       <Fragment>
           <Header/>
-          <h1>hola</h1>
+          <Body/>
+          <Nosotros/>
+          <Fotter/>
       </Fragment>
   );
 }
