@@ -1,8 +1,14 @@
 import { useEffect, useState } from "react";
 import { GuardarComentario, getComentarios } from "./API";
 import Vector3 from "./Vector3";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Form = () => {
+
+  const notify = () => toast("Gracias por tus comentarios");
+
   const [Nombre, setNombre] = useState(null);
   const [Comentario, setComentario] = useState(null);
 
@@ -10,6 +16,7 @@ const Form = () => {
     e.preventDefault();
     GuardarComentario(Nombre, Comentario);
     console.log(Nombre + Comentario);
+    notify();
   };
 
   const [com, setCom] = useState(null);
@@ -25,6 +32,7 @@ const Form = () => {
 
   return (
     <>
+      <ToastContainer/>
       <div className=" w-ful bg-gray-800 flex flex-col 
         items-center">
         <h1 className=" text-center text-2xl text-white my-6 max-sm:px-2">
