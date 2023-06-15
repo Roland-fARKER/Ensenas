@@ -3,11 +3,11 @@ import { GuardarComentario, getComentarios } from "./API";
 import Vector3 from "./Vector3";
 
 const Form = () => {
-  const [Nombre, setNombre] = useState();
-  const [Comentario, setComentario] = useState();
+  const [Nombre, setNombre] = useState(null);
+  const [Comentario, setComentario] = useState(null);
 
-  const guardarComentario = () => {
-  
+  const guardarComentario = (e) => {
+    e.preventDefault();
     GuardarComentario(Nombre, Comentario);
     console.log(Nombre + Comentario);
   };

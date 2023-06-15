@@ -20,7 +20,7 @@ const Body = () =>{
                     <h1 className=" text-white text-3xl my-4 text-center">Qué hacemos?</h1>
                     <hr></hr>
                     <p className=" text-white text-lg my-3 text-justify">
-                        Desarrollamos una app de videoconfrencias
+                        Desarrollamos una app de videoconferencias
                         para facilitar la comunicación cuando trabajamos o 
                         estudiamos con compañeros que se expresan en 
                         lenguaje de señas.
