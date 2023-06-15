@@ -3,8 +3,8 @@ import { GuardarComentario, getComentarios } from "./API";
 import Vector3 from "./Vector3";
 
 const Form = () => {
-  const [Nombre, setNombre] = useState(null);
-  const [Comentario, setComentario] = useState(null);
+  const [Nombre, setNombre] = useState();
+  const [Comentario, setComentario] = useState();
 
   const guardarComentario = () => {
   
@@ -73,7 +73,7 @@ const Form = () => {
       
        <div >
             {
-                com.map((c) =>(
+                com?.map((c) =>(
                     <div className=" bg-slate-200 my-4 w-auto mx-2 px-2 rounded-2xl">
                         <h1 className=" text-blue-600">{c.data().Nombre}</h1>
                         <p>{c.data().Comentario}</p>

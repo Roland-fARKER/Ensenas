@@ -2,6 +2,7 @@ import SVGComponent1 from "./vector1";
 import SVGComponent2 from "./vector2";
 import Iasvg from "./IAsvg";
 import Lenguaje from "./lenguajeDeSignos";
+import Form from "./form"
 
 const Body = () =>{
     return(
@@ -67,6 +68,7 @@ const Body = () =>{
                 <h2 className=" text-white text-center text-lg" >"Derribando barreras, construyendo igualdad"</h2>
                 <h2 className=" text-white text-center text-2xl my-5" >Entérate de más noticias Pronto...</h2>
             </section>
+            <Form/>
         </>
        
     );
