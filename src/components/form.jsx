@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Form = () => {
 
-  const notify = () => toast("Gracias por tus comentarios");
+  const notify = () => toast.success
+  ("Gracias por tus comentarios");
 
   const [Nombre, setNombre] = useState(null);
   const [Comentario, setComentario] = useState(null);
