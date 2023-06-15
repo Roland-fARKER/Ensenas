@@ -28,7 +28,7 @@ const Form = () => {
       <div className=" w-ful bg-gray-800 flex flex-col 
         items-center">
         <h1 className=" text-center text-2xl text-white my-6 max-sm:px-2">
-          Evalua nuestra idea y ayudanos a mejorar!
+          Evalúa nuestra idea y ayudanos a mejorar!
         </h1>
         <form className=" max-sm:w-2/3 justify-center">
           <label className=" block uppercase text-white text-base font-bold mb-2">
